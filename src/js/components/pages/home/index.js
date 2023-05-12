@@ -40,8 +40,8 @@ class Home extends React.Component {
                         <Fadeanimation s_active={this.state.currentPage - 1}/>
                         <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
                             <Section_home/>
-                            <Section_1/>
                             <Section_6/>
+                            <Section_1/>
                             <Section_2/>
                             <Section_3/>
                             <Section_4/>
